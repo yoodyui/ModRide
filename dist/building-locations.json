@@ -1,0 +1,476 @@
+{
+  "retrieved": "2026-10-04",
+  "note": "Navigation reference points from KMUTT official links, not surveyed pickup locations.",
+  "buildings": [
+    {
+      "id": "S3",
+      "coordinates": [
+        100.4953008,
+        13.6499363
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S3.html",
+      "navigationLink": "https://goo.gl/maps/ww6RirSKCAyBx67KA",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%94%E0%B8%A3%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%B4%E0%B8%81%E0%B8%82%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2+%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89/@13.6504989,100.4945675,19z/data=!4m5!3m4!1s0x30e2a25204b42371:0xa8d55450a6cacd9d!8m2!3d13.6499363!4d100.4953008?hl=th&shorturl=1",
+      "footprintId": 9183623,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.4951493,
+        13.650035980000002
+      ]
+    },
+    {
+      "id": "S4",
+      "coordinates": [
+        100.4945149,
+        13.6502373
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S4.html",
+      "navigationLink": "https://goo.gl/maps/eXnVzSNUeERAet847",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B0(%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%94%E0%B8%87)/@13.6504989,100.4945675,19z/data=!4m5!3m4!1s0x30e2a2521f6f24e9:0xd2d8742559362ccd!8m2!3d13.6502373!4d100.4945149?hl=th&shorturl=1",
+      "footprintId": 420044928,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49422265000001,
+        13.65001485
+      ]
+    },
+    {
+      "id": "S5",
+      "coordinates": [
+        100.4945352,
+        13.6494302
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S5.html",
+      "navigationLink": "https://goo.gl/maps/DSLYKTf3CRktHzir6",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B2+2+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6494315,100.493988,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a252160b4ee1:0x71dc2d6c73cf175b!8m2!3d13.6494302!4d100.4945352?hl=th&shorturl=1",
+      "footprintId": 420045662,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49447184444446,
+        13.649454299999999
+      ]
+    },
+    {
+      "id": "S6",
+      "coordinates": [
+        100.4947104,
+        13.6488755
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S6.html",
+      "navigationLink": "https://goo.gl/maps/YXgVvBFTZeUQUu3a8",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B2+1+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6488768,100.4941632,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a2526b0c9a49:0x3c29496da0d14206!8m2!3d13.6488755!4d100.4947104?hl=th&shorturl=1",
+      "footprintId": 420051710,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49465385714286,
+        13.648937614285714
+      ]
+    },
+    {
+      "id": "S7",
+      "coordinates": [
+        100.4942893,
+        13.6491542
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S7.html",
+      "navigationLink": "https://goo.gl/maps/sNyrQPJ1k2vyiMwaA",
+      "resolved": "https://www.google.co.th/maps/place/Child+Development+Building+KMUTT/@13.6491555,100.4937421,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a2523fa01205:0x242568be93c6e3e4!8m2!3d13.6491542!4d100.4942893?hl=th&shorturl=1",
+      "footprintId": 436983066,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49427705000001,
+        13.649158825
+      ]
+    },
+    {
+      "id": "S8",
+      "coordinates": [
+        100.4938734,
+        13.648914
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S8.html",
+      "navigationLink": "https://goo.gl/maps/m4a36KvLyHjeAPb79",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6489153,100.4933262,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a25247b3b15d:0x30c0f354b453f042!8m2!3d13.648914!4d100.4938734?hl=th&shorturl=1"
+    },
+    {
+      "id": "S9",
+      "coordinates": [
+        100.4935654,
+        13.6488246
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S9.html",
+      "navigationLink": "https://goo.gl/maps/HfmJYZNokj2EQJpq9",
+      "resolved": "https://www.google.co.th/maps/place/School+of+Energy+Environment+and+Materials,+KMUTT/@13.6491329,100.4934584,19z/data=!4m5!3m4!1s0x30e2a2524903b20b:0xa1c190a185bd4aae!8m2!3d13.6488246!4d100.4935654?hl=th&shorturl=1",
+      "footprintId": 651713745,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49353036666666,
+        13.648990049999998
+      ]
+    },
+    {
+      "id": "S10",
+      "coordinates": [
+        100.4936803,
+        13.6495431
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S10.html",
+      "navigationLink": "https://goo.gl/maps/WD3LVNSE3c2g3pzc6",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7/@13.6495431,100.4925833,18z/data=!3m1!4b1!4m5!3m4!1s0x30e2a3587dd2429d:0xc01ebec43d86d6c8!8m2!3d13.6495431!4d100.4936803?hl=th&shorturl=1",
+      "footprintId": 1333533934,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49366302499999,
+        13.64957465
+      ]
+    },
+    {
+      "id": "S11",
+      "coordinates": [
+        100.4933571,
+        13.6497227
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S11.html",
+      "navigationLink": "https://goo.gl/maps/oVffR1rNwcb3rA29A",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A1+5+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6493138,100.4937349,19.75z/data=!4m5!3m4!1s0x30e2a2523223664b:0xd7bd730b7b6045ba!8m2!3d13.6497227!4d100.4933571?hl=th&shorturl=1",
+      "footprintId": 420533543,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49336948125001,
+        13.649715756250004
+      ]
+    },
+    {
+      "id": "S12",
+      "coordinates": [
+        100.4927071,
+        13.6496313
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S12.html",
+      "navigationLink": "https://goo.gl/maps/8ir2D74MKcpqYXcH9",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A14+(CB4)+%E0%B8%A1%E0%B8%88%E0%B8%98./@13.6495133,100.4926911,21z/data=!4m5!3m4!1s0x0:0xa6c3036917992b45!8m2!3d13.6496313!4d100.4927071?hl=th&shorturl=1",
+      "footprintId": 420534334,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49267684375002,
+        13.64959785625
+      ]
+    },
+    {
+      "id": "S13",
+      "coordinates": [
+        100.4919413,
+        13.64992
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S13.html",
+      "navigationLink": "https://goo.gl/maps/nwhBt3MGybokGbbV8",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A1+3+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6498019,100.4924514,19.25z/data=!4m5!3m4!1s0x30e2a253dcb3ef8b:0x452a2e283eaa0960!8m2!3d13.64992!4d100.4919413?hl=th&shorturl=1",
+      "footprintId": 420534582,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49201052800001,
+        13.6498311
+      ]
+    },
+    {
+      "id": "S14",
+      "coordinates": [
+        100.4918086,
+        13.6509358
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S14.html",
+      "navigationLink": "https://goo.gl/maps/SKKwCCP79gjeMhgN6",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3+%E0%B8%A1%E0%B8%88%E0%B8%98./@13.6502589,100.4918115,19z/data=!4m5!3m4!1s0x30e2a25160d46eab:0xd4f685d06fceb9a9!8m2!3d13.6509358!4d100.4918086?hl=th&shorturl=1"
+    },
+    {
+      "id": "S15",
+      "coordinates": [
+        100.4933173,
+        13.6502823
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S15.html",
+      "navigationLink": "https://goo.gl/maps/psmvken1kwciRAe86",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5/@13.6502915,100.492802,19z/data=!4m5!3m4!1s0x30e2a2522bbf4e31:0x50847435828157b!8m2!3d13.6502823!4d100.4933173?hl=th&shorturl=1",
+      "footprintId": 436983067,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49333025,
+        13.650303350000002
+      ]
+    },
+    {
+      "id": "N1",
+      "coordinates": [
+        100.4950875,
+        13.6513655
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N1.html",
+      "navigationLink": "https://goo.gl/maps/x8eFvGSEMdHq4mdLA",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AB%E0%B9%88%E0%B8%B8%E0%B8%99%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6512506,100.4950131,19.75z/data=!4m5!3m4!1s0x30e2a251ef85775b:0x959f79c0fa14ceb4!8m2!3d13.6513655!4d100.4950875?hl=th&shorturl=1"
+    },
+    {
+      "id": "N2",
+      "coordinates": [
+        100.4949922,
+        13.6518228
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N2.html",
+      "navigationLink": "https://goo.gl/maps/CzPZSbGHgQuNTULv5",
+      "resolved": "https://www.google.co.th/maps/place/Office+of+the+President/@13.6518241,100.494445,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a251e8335ab3:0xfcfbdb13d6ed0f49!8m2!3d13.6518228!4d100.4949922?hl=th&shorturl=1"
+    },
+    {
+      "id": "N3",
+      "coordinates": [
+        100.4950401,
+        13.6525383
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N3.html",
+      "navigationLink": "https://goo.gl/maps/hN3iBd5hmiHQz99L9",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B8%A1%E0%B8%B5+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6525396,100.4944929,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a251c5aae609:0x534ddde7e45a39c7!8m2!3d13.6525383!4d100.4950401?hl=th&shorturl=1",
+      "footprintId": 436983064,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49493376363635,
+        13.652466454545454
+      ]
+    },
+    {
+      "id": "N4",
+      "coordinates": [
+        100.4946001,
+        13.6525278
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N4.html",
+      "navigationLink": "https://goo.gl/maps/gZqAN6Gztudyb7F27",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%9F%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C+%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C/@13.6525291,100.4940529,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a251c7b7df01:0xc30322f83a613c26!8m2!3d13.6525278!4d100.4946001?hl=th&shorturl=1",
+      "footprintId": 436983063,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49451231333335,
+        13.652588
+      ]
+    },
+    {
+      "id": "N5",
+      "coordinates": [
+        100.4943694,
+        13.653036
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N5.html",
+      "navigationLink": "https://goo.gl/maps/CfoLBTpJU9s5str36",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%AA%E0%B8%B2%E0%B8%AB%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1+%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%98/@13.6525291,100.4940529,19z/data=!4m5!3m4!1s0x30e2a251b194e739:0x65f34b31a06d62d1!8m2!3d13.653036!4d100.4943694?hl=th&shorturl=1"
+    },
+    {
+      "id": "N6",
+      "coordinates": [
+        100.4945455,
+        13.6534069
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N6.html",
+      "navigationLink": "https://goo.gl/maps/jEqo6MFXAuBuVhVRA",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%88%E0%B8%B8%E0%B8%A5%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2+%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C+%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5/@13.6534082,100.4939983,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a302eb553f13:0x91f84e28937080d8!8m2!3d13.6534069!4d100.4945455?hl=th&shorturl=1"
+    },
+    {
+      "id": "N7",
+      "coordinates": [
+        100.4948229,
+        13.6537998
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N7.html",
+      "navigationLink": "https://goo.gl/maps/bhwovWAPiynbVCET9",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6538011,100.4942757,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a2503498a1d3:0xbf2b9ce0868261be!8m2!3d13.6537998!4d100.4948229?hl=th&shorturl=1"
+    },
+    {
+      "id": "N8",
+      "coordinates": [
+        100.495396,
+        13.6537923
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N8.html",
+      "navigationLink": "https://goo.gl/maps/76QQgS811iBfDkhB8",
+      "resolved": "https://www.google.co.th/maps/place/13%C2%B039'13.7%22N+100%C2%B029'43.4%22E/@13.6537936,100.4948488,19z/am=t/data=!4m5!3m4!1s0x0:0x0!8m2!3d13.6537923!4d100.495396?hl=th&shorturl=1"
+    },
+    {
+      "id": "N9",
+      "coordinates": [
+        100.4942447,
+        13.6544265
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N9.html",
+      "navigationLink": "https://goo.gl/maps/1izknhAwWifDrw7q9",
+      "resolved": "https://www.google.co.th/maps/place/Institute+of+Field+Robotics+(FIBO)/@13.6544504,100.4943839,21z/data=!4m5!3m4!1s0x30e2a250412d7b19:0xab69cef59e4c034f!8m2!3d13.6544265!4d100.4942447?hl=th&shorturl=1",
+      "footprintId": 346450376,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49417308999999,
+        13.654503410000002
+      ]
+    },
+    {
+      "id": "N10",
+      "coordinates": [
+        100.4939483,
+        13.652632
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N10.html",
+      "navigationLink": "https://goo.gl/maps/Z2DvPbZ1zmcUZXiJ7",
+      "resolved": "https://www.google.co.th/maps/place/KMUTT+Library/@13.652718,100.4938312,21z/data=!4m5!3m4!1s0x30e2a251ba7efad3:0x9e703f5a0e5228c0!8m2!3d13.652632!4d100.4939483?hl=th&shorturl=1",
+      "footprintId": 311879209,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49389663,
+        13.652748859999999
+      ]
+    },
+    {
+      "id": "N11",
+      "coordinates": [
+        100.4936104,
+        13.6525857
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N11.html",
+      "navigationLink": "https://goo.gl/maps/dkX1EwH1nuUDAE4J7",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%A8/@13.6524597,100.4937621,20.5z/data=!4m5!3m4!1s0x30e2a251a57396f5:0x2fd829cd26be9e23!8m2!3d13.6525857!4d100.4936104?hl=th&shorturl=1",
+      "footprintId": 224982053,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49362882500002,
+        13.652604499999999
+      ]
+    },
+    {
+      "id": "N12",
+      "coordinates": [
+        100.4931314,
+        13.6522303
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N12.html",
+      "navigationLink": "https://goo.gl/maps/Kwb5qpWBb2vm6AQk8",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C+%E0%B8%A1%E0%B8%88%E0%B8%98./@13.6521282,100.493159,20.5z/data=!4m5!3m4!1s0x30e2a251a0959ba7:0xc545d62667714b63!8m2!3d13.6522303!4d100.4931314?hl=th&shorturl=1"
+    },
+    {
+      "id": "N13",
+      "coordinates": [
+        100.4929434,
+        13.6521331
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N13.html",
+      "navigationLink": "https://goo.gl/maps/yqnfYyUMeNW7Gx986",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%9A%E0%B8%B3%E0%B8%A3%E0%B8%B8%E0%B8%87+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6521344,100.4923962,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a2510af13c8b:0xb7000636ff754672!8m2!3d13.6521331!4d100.4929434?hl=th&shorturl=1"
+    },
+    {
+      "id": "N14",
+      "coordinates": [
+        100.4926522,
+        13.6518134
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N14.html",
+      "navigationLink": "https://goo.gl/maps/Gb6Wg5geuqn36fEN6",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%B9%E0%B8%87+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6518147,100.492105,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a2517377b443:0xf214e4fc55128256!8m2!3d13.6518134!4d100.4926522?hl=th&shorturl=1"
+    },
+    {
+      "id": "N15",
+      "coordinates": [
+        100.493431,
+        13.651991
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N15.html",
+      "navigationLink": "https://goo.gl/maps/2Wvc4gBgyAPZXcKF9",
+      "resolved": "https://www.google.co.th/maps/place/FLU+KMUTT/@13.6519923,100.4928838,19z/data=!3m1!4b1!4m5!3m4!1s0x30e2a2519c20f443:0x3a5a51f71dac9a12!8m2!3d13.651991!4d100.493431?hl=th&shorturl=1"
+    },
+    {
+      "id": "N16",
+      "coordinates": [
+        100.4942384,
+        13.6521815
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N16.html",
+      "navigationLink": "https://goo.gl/maps/aT6nEQdB7Eqn6XSh6",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%9E%E0%B8%AB%E0%B8%B8%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3/@13.6521841,100.4931441,18z/data=!3m1!4b1!4m5!3m4!1s0x30e2a31f19751d5f:0x530071f90ef3eccd!8m2!3d13.6521815!4d100.4942384?hl=th&shorturl=1",
+      "footprintId": 1333533935,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49415551785714,
+        13.651927562499997
+      ]
+    },
+    {
+      "id": "N17",
+      "coordinates": [
+        100.4938225,
+        13.6514908
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N17.html",
+      "navigationLink": "https://goo.gl/maps/AwLFMeEbXSwaLCjo7",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A1+2+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6514934,100.4927282,18z/data=!3m1!4b1!4m5!3m4!1s0x30e2a25190ed099b:0x7dd390d43a0854da!8m2!3d13.6514908!4d100.4938225?hl=th&shorturl=1",
+      "footprintId": 420534143,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49384742619046,
+        13.651521714285714
+      ]
+    },
+    {
+      "id": "N18",
+      "coordinates": [
+        100.4937239,
+        13.6512299
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N18.html",
+      "navigationLink": "https://goo.gl/maps/yuh4tWKpfRZaVx1Z7",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%AA%E0%B8%B2%E0%B8%AB%E0%B8%81%E0%B8%B2%E0%B8%A3+4+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6512314,100.4930732,18z/data=!3m1!4b1!4m5!3m4!1s0x30e2a25185535193:0x9cd0048b0a73b13a!8m2!3d13.6512299!4d100.4937239?hl=th&shorturl=1"
+    },
+    {
+      "id": "N20",
+      "coordinates": [
+        100.493267,
+        13.6515187
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N20.html",
+      "navigationLink": "https://goo.gl/maps/cFxYzvU1PsHKdYUc8",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A1+1+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6514747,100.4935029,19.5z/data=!4m5!3m4!1s0x30e2a2519c47d611:0xd0dacf962a18f4c9!8m2!3d13.6515187!4d100.493267?hl=th&shorturl=1",
+      "footprintId": 436983061,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49334100666665,
+        13.651574833333333
+      ]
+    },
+    {
+      "id": "S1",
+      "coordinates": [
+        100.4951147,
+        13.6504976
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S1.html",
+      "navigationLink": "https://maps.app.goo.gl/FmEs36XAPdawjmvS6",
+      "resolved": "https://www.google.com/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5+4/@13.6505028,100.4925398,17z/data=!4m6!3m5!1s0x30e2a32909328b03:0x68b6084c878ce39c!8m2!3d13.6504976!4d100.4951147!16s%2Fg%2F11t43mzj2f?authuser=0&entry=tts&g_ep=EgoyMDI1MTExMi4wIPu8ASoASAFQAw%3D%3D&skid=c005f8b9-e064-4301-b47e-135e44c45b65"
+    },
+    {
+      "id": "S2",
+      "coordinates": [
+        100.4957433,
+        13.6503693
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/S2.html",
+      "navigationLink": "https://maps.app.goo.gl/FxNpNBTx4E1B9kuBA",
+      "resolved": "https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%96+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%94+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B8+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10140/@13.6503247,100.4956045,21z/data=!4m6!3m5!1s0x30e2a252003a7391:0xc4d65b298ed6946a!8m2!3d13.6503693!4d100.4957433!16s%2Fg%2F1hm4kfbws?entry=tts&g_ep=EgoyMDI1MTExMi4wIPu8ASoASAFQAw%3D%3D&skid=c377d8aa-9576-410d-a915-a65b1deaf30a",
+      "footprintId": 378153794,
+      "matchMethod": "osm-name-matched-to-official-directory",
+      "labelCoordinates": [
+        100.49563398333332,
+        13.65032191666667
+      ]
+    },
+    {
+      "id": "N19",
+      "coordinates": [
+        100.4932442,
+        13.6511605
+      ],
+      "source": "https://bgm.kmutt.ac.th/MapNavi/N19.html",
+      "navigationLink": "https://maps.app.goo.gl/3EbhRUpoJ8gh5QG6A",
+      "resolved": "https://www.google.com/maps/place/%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1+(GMI)/@13.6511657,100.4906693,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2a3a0de75455b:0x2ac92be6a8f21fb6!8m2!3d13.6511605!4d100.4932442!16s%2Fg%2F11wvgr2p1j?authuser=0&entry=tts&g_ep=EgoyMDI1MDQyMC4wIPu8ASoASAFQAw%3D%3D&skid=0f2eac4b-a9ca-4581-ae1b-376228cf5b67"
+    }
+  ]
+}

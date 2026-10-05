@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>ModRide Campus Map</title>
+  <meta name="description" content="ต้นแบบแผนที่ 3D สำหรับเลือกจุดหมายและเรียกรถกอล์ฟอัตโนมัติในมหาวิทยาลัย">
+  <link rel="icon" type="image/svg+xml" href="./ant.svg">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css">
+  <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+  <style>
+    :root{--ink:#10201d;--muted:#66736f;--paper:#f7f8f4;--panel:#fff;--line:#dfe5df;--green:#0e6d4d;--mint:#5ee0a4;--night:#0b1715;--amber:#ffb648;--shadow:0 18px 60px rgba(13,38,31,.16)}
+    *{box-sizing:border-box} html,body{height:100%;margin:0} body{font-family:"Noto Sans Thai","IBM Plex Sans Thai",system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);overflow:hidden}
+    button,input{font:inherit} button{cursor:pointer} .app{display:grid;grid-template-columns:360px 1fr;height:100%}
+    aside{position:relative;z-index:5;background:rgba(255,255,255,.96);border-right:1px solid var(--line);display:flex;flex-direction:column;min-width:0}
+    .brand{height:76px;padding:18px 22px;display:flex;align-items:center;gap:13px;border-bottom:1px solid var(--line)} .mark{width:38px;height:38px;border-radius:12px;background:var(--night);display:grid;place-items:center;color:var(--mint)}
+    .brand strong{display:block;font-size:18px;letter-spacing:-.3px}.brand small{color:var(--muted);font-size:12px}.content{padding:20px 20px 12px;overflow:auto}
+    h1{font-size:24px;line-height:1.25;margin:0 0 7px;letter-spacing:-.5px}.intro{margin:0 0 18px;color:var(--muted);font-size:14px;line-height:1.55}
+    .search{position:relative;margin-bottom:16px}.search svg{position:absolute;left:14px;top:13px;color:#70807b}.search input{width:100%;height:46px;border:1px solid var(--line);border-radius:14px;padding:0 14px 0 43px;background:#f7f9f7;outline:none}.search input:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(14,109,77,.1)}
+    .label-row{display:flex;align-items:center;justify-content:space-between;margin:18px 0 10px}.label-row strong{font-size:14px}.label-row span{font-size:12px;color:var(--muted)}
+    .places{display:grid;gap:8px}.place{border:1px solid transparent;background:transparent;border-radius:14px;padding:11px;display:grid;grid-template-columns:42px 1fr auto;gap:11px;align-items:center;text-align:left;color:var(--ink);width:100%}.place:hover{background:#f1f6f2}.place.active{background:#eaf8f1;border-color:#bbe8d3}.place-icon{width:42px;height:42px;border-radius:12px;background:#eef2ef;display:grid;place-items:center;font-weight:800;color:var(--green)}.place.active .place-icon{background:var(--green);color:white}.place b{font-size:14px;display:block}.place small{font-size:12px;color:var(--muted)}.place .dist{font-size:12px;color:var(--muted)}
+    .selected{margin-top:18px;border-radius:18px;background:var(--night);color:white;padding:17px;box-shadow:var(--shadow)}.selected.hidden{display:none}.selected .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mint)}.selected h2{margin:6px 0 3px;font-size:19px}.selected p{margin:0;color:#adbbb7;font-size:13px}.trip{display:flex;gap:16px;margin:15px 0}.trip div{flex:1}.trip b{display:block;font-size:17px}.trip span{font-size:11px;color:#adbbb7}.go{border:0;border-radius:12px;width:100%;height:44px;background:var(--mint);color:#08231a;font-weight:800}.go:hover{filter:brightness(.96)}
+    .aside-foot{padding:11px 20px 15px;color:var(--muted);font-size:11px;border-top:1px solid var(--line)}
+    main{position:relative;min-width:0;background:#dfe8e2}.map{position:absolute;inset:0}.maplibregl-ctrl-bottom-right{right:8px;bottom:6px}.maplibregl-ctrl-attrib{font-size:10px!important}
+    .topbar{position:absolute;z-index:3;top:18px;left:18px;right:18px;display:flex;justify-content:space-between;pointer-events:none}.pill{pointer-events:auto;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.8);box-shadow:0 8px 30px rgba(18,48,39,.12);border-radius:14px;padding:9px 12px;display:flex;align-items:center;gap:9px;font-size:13px}.status-dot{width:8px;height:8px;border-radius:50%;background:#20b778;box-shadow:0 0 0 4px rgba(32,183,120,.15)}.map-actions{display:flex;gap:8px}.icon-btn{width:42px;height:42px;border-radius:13px;border:1px solid rgba(255,255,255,.8);background:rgba(255,255,255,.94);box-shadow:0 8px 30px rgba(18,48,39,.12);display:grid;place-items:center;color:var(--ink);pointer-events:auto}.icon-btn:hover{background:white}.icon-btn.active{background:var(--night);color:white}
+    .vehicle-card{position:absolute;z-index:3;right:18px;bottom:38px;width:260px;background:rgba(11,23,21,.94);backdrop-filter:blur(16px);color:white;border-radius:18px;padding:15px;box-shadow:var(--shadow)}.vehicle-head{display:flex;align-items:center;gap:11px}.cart{width:42px;height:42px;border-radius:13px;background:var(--mint);color:var(--night);display:grid;place-items:center}.vehicle-head b{font-size:14px;display:block}.vehicle-head small{color:#a8b7b2}.battery{margin-left:auto;font-size:12px;color:var(--mint)}.bar{height:4px;background:#29403a;border-radius:5px;margin-top:13px;overflow:hidden}.bar span{display:block;width:74%;height:100%;background:var(--mint)}
+    .toast{position:absolute;z-index:8;left:50%;bottom:28px;transform:translate(-50%,30px);background:white;border:1px solid var(--line);border-radius:16px;padding:12px 16px;box-shadow:var(--shadow);display:flex;gap:10px;align-items:center;opacity:0;pointer-events:none;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}
+    dialog{border:0;border-radius:24px;padding:0;box-shadow:0 30px 100px rgba(0,0,0,.3);width:min(440px,calc(100% - 32px));color:var(--ink)}dialog::backdrop{background:rgba(4,16,13,.52);backdrop-filter:blur(4px)}.modal{padding:25px}.modal-icon{width:48px;height:48px;border-radius:15px;background:#e8f8f0;display:grid;place-items:center;color:var(--green)}.modal h2{margin:17px 0 7px;font-size:22px}.modal p{margin:0;color:var(--muted);line-height:1.55}.route-summary{margin:18px 0;background:#f4f7f4;border-radius:15px;padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:10px}.route-summary span{display:block;font-size:11px;color:var(--muted)}.route-summary b{font-size:14px}.modal-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}.modal-actions button{height:44px;border-radius:12px;font-weight:700}.cancel{border:1px solid var(--line);background:white}.confirm{border:0;background:var(--green);color:white}
+    .marker{width:34px;height:34px;border-radius:50% 50% 50% 10%;transform:rotate(-45deg);background:var(--green);border:4px solid white;box-shadow:0 5px 16px rgba(0,0,0,.25)}.marker::after{content:"";position:absolute;width:8px;height:8px;border-radius:50%;background:white;left:9px;top:9px}
+    .cart-marker{width:42px;height:42px;border-radius:50%;background:var(--night);border:3px solid var(--mint);display:grid;place-items:center;color:var(--mint);box-shadow:0 8px 22px rgba(0,0,0,.3)}
+    @media(max-width:780px){body{overflow:auto}.app{display:block;height:auto;min-height:100%}aside{height:auto;border:0}.brand{height:68px}.content{padding:16px}.places{grid-template-columns:1fr 1fr}.place{grid-template-columns:38px 1fr}.place .dist{display:none}.selected{margin-bottom:0}main{height:64vh;min-height:500px}.topbar{top:12px;left:12px;right:12px}.vehicle-card{right:12px;bottom:28px;width:220px}.aside-foot{display:none}}
+    @media(max-width:480px){.places{grid-template-columns:1fr}.intro{display:none}.content{padding-top:14px}.vehicle-card{left:12px;right:12px;width:auto}.pill span:last-child{display:none}.map-actions .icon-btn:first-child{display:none}}
+  </style>
+  <link rel="stylesheet" href="./refined.css">
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="brand"><div class="mark" aria-hidden="true"><img src="./ant.svg" width="48" height="48" alt=""></div><div><strong>ModRide</strong><small>KMUTT Autonomous Golf Cart</small></div></div>
+    <div class="content">
+      <div class="section-caption">เลือกจุดหมาย</div>
+      <h1>อยากไปตึกไหน?</h1>
+      <p class="intro">เลือกอาคารบนแผนที่ หรือค้นหาจุดหมายที่ต้องการ</p>
+      <form class="search" id="searchForm"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="search" aria-label="ค้นหาอาคาร" placeholder="พิมพ์ เช่น อยากไปหอสมุด" autocomplete="off"><button type="submit" aria-label="ค้นหาจุดหมาย">ค้นหา</button></form>
+      <p class="search-feedback" id="searchFeedback" role="status">จุดหมายจะเปิดใช้งานเมื่อยืนยันพิกัดแล้ว</p>
+      <div class="label-row"><strong>จุดหมาย</strong><span id="resultCount">0 แห่ง</span></div>
+      <div class="places" id="places"></div>
+      <section class="selected hidden" id="selectedCard" aria-live="polite">
+        <div class="eyebrow">จุดหมายที่เลือก</div><h2 id="selectedName"></h2><p id="selectedStop"></p>
+        <div class="trip"><div><b id="selectedTime"></b><span>เวลาโดยประมาณ</span></div><div><b id="selectedDistance"></b><span>ระยะทาง</span></div></div>
+        <button class="go" id="bookBtn">เลือกจุดหมายนี้</button>
+      </section>
+    </div>
+    <div class="aside-foot">ชื่ออาคาร: <a href="https://bgm.kmutt.ac.th/MapNavi/MAPNAVI.html" target="_blank" rel="noopener noreferrer">แผนที่ทางการ มจธ.</a> · จุดรับ–ส่งรอยืนยัน</div>
+  </aside>
+  <main>
+    <div id="map" class="map" aria-label="แผนที่สามมิติของมหาวิทยาลัย"></div>
+    <div class="topbar"><div class="pill"><strong>Campus map</strong><span>มจธ. บางมด · แผนที่โดยรอบ</span></div><div class="map-actions"><button class="icon-btn" id="recenter" aria-label="กลับไปยังศูนย์กลางแผนที่" title="กลับไปยังศูนย์กลาง"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2"/></svg></button><button class="icon-btn active" id="tilt" aria-label="สลับมุมมองสามมิติ" aria-pressed="true" title="สลับมุมมอง 3D">3D</button></div></div>
+    <div class="vehicle-card"><div class="vehicle-head"><div class="cart"><img src="./ant.svg" width="30" height="30" alt="มด ModRide"></div><div><b>ModRide 01 · รถ 1 คัน</b><small id="vehicleStatus">ยังไม่ได้เชื่อมต่อ F9R</small></div><div class="battery" id="fixQuality">—</div></div><div class="telemetry" id="telemetryInfo">รอตำแหน่งจากรถ</div></div>
+  </main>
+</div>
+<dialog id="confirmDialog"><div class="modal"><div class="modal-icon"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2"/></svg></div><h2>ยืนยันการเดินทาง</h2><p>รถจะพาคุณไปยังจุดรับ–ส่งที่ปลอดภัยใกล้ <strong id="modalName"></strong></p><div class="route-summary"><div><span>จุดขึ้นรถ</span><b>สถานีบริการกลาง</b></div><div><span>จุดหมาย</span><b id="modalStop"></b></div></div><div class="modal-actions"><button class="cancel" id="cancelBtn">ย้อนกลับ</button><button class="confirm" id="confirmBtn">เรียกรถตอนนี้</button></div></div></dialog>
+<script src="./buildings.js"></script>
+<script src="./campus-map.js"></script>
+<script src="./modride.js"></script>
+</body>
+</html>
